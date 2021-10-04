@@ -1,0 +1,27 @@
+{
+  "name": "slow-patrol-salesbot",
+  "version": "1.0.0",
+  "description": "twitter and sales bot for solana NFT project 'The Slow Patrol'",
+  "main": "index.js",
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node index.js",
+    "lint": "eslint"
+  },
+  "author": "av",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^0.22.0",
+    "capitalize": "^2.0.3",
+    "cheerio": "^1.0.0-rc.10",
+    "discord.js": "^13.1.0",
+    "dotenv": "^10.0.0",
+    "eslint": "^7.32.0",
+    "lodash": "^4.17.21",
+    "node": "^16.10.0",
+    "pino": "^6.13.3",
+    "request": "^2.88.2",
+    "twitter": "^1.7.1"
+  }
+}
